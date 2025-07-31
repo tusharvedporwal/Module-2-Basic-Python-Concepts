@@ -5,7 +5,7 @@ def greet_user():
     last_name = input("Enter your last name: ").strip()
 
     full_name = f"{first_name} {last_name}"
-    print(f"Hello, {full_name}! Welcome to the Python world.")
+    print(f"Hello, {full_name}! Welcome to the Python program.")
 
 if __name__ == "__main__":
     greet_user()
